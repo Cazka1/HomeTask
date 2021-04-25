@@ -5,9 +5,10 @@ Feature: homeTast1
 
   Scenario Outline: Сheck the purchase
     Given User opens '<Home Page>' page
+    When User click on 'UA' button
     When User clicks on 'Search Field'
     And User write '<Search Word>' and click Enter button
-    And User choose 'Apple' producer
+   # And User choose 'Apple' producer
     And User click on first product
     And user check that '<Search Word>' contains '<Product Name>'
     Then User see cart window
@@ -38,15 +39,17 @@ Feature: homeTast1
   Scenario Outline: Check search for non-existent goods
     Given User opens '<Home Page>' page
     When User clicks on 'Search Field'
-    And User write '<Search Word1>'
-    And User see '<Message>'
-    And User write '<Search Word2>'
-    And User see '<Message>'
-    And User write '<Search Word3>'
-    Then User see '<Message>'
+    And User write '<Search Word>'
+    And User see 'Message'
+    And User write '<Search Word>'
+    And User see 'Message'
+    And User write '<Search Word>'
+    Then User see 'Message'
     Examples:
-      | Home Page               | Search Word1   | Search Word2      | Search Word3 | Message              |
-      | https://rozetka.com.ua/ | Синхрофазатрон | зілля невидомості | індульгенція | clarify your request |
+      | Home Page               | Search Word       |
+      | https://rozetka.com.ua/ | синхрофазотрон   |
+      | https://rozetka.com.ua/ | зілля невидомості |
+      | https://rozetka.com.ua/ | індульгенція      |
 
   Scenario Outline: Check sorting
     Given User opens '<Home Page>' page
