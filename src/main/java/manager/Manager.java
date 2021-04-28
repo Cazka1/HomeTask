@@ -18,7 +18,6 @@ public class PageFactoryManager {
     public AppleIPhonePage getAppleIPhonePage() {
         return new AppleIPhonePage(driver);
     }
-
     public CartPage getCartPage() {
         return new CartPage(driver);
     }
