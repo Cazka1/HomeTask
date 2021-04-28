@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39455582-a201-4285-922c-a661902ed36e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Cazka.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="39455582-a201-4285-922c-a661902ed36e" name="Default Changelist" comment="v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/PageFactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/PageFactoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/PageFactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AppleIPhonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AppleIPhonePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/IPhone12ProPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/IPhone12ProPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/homeTask1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homeTask1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/manager/PageFactoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/PageFactoryManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/homeTask1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/homeTask1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/negative.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/smoke.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/manager/PageFactoryManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/AppleIPhonePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AppleIPhonePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/IPhone12ProPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/IPhone12ProPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LogInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepdefinitions/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homeTask1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homeTask1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/negative.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/smoke.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +58,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefinitions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cazka\Desktop\epam\lab\homeTask1\src\test\resources\feature" />
+      <recent name="C:\Users\Cazka\Desktop\epam\lab\homeTask1\src\test\resources" />
+      <recent name="C:\Users\Cazka\Desktop\epam\lab\homeTask1" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cazka\Desktop\epam\lab\homeTask1\src\test\resources" />
       <recent name="C:\Users\Anastasiia_Rudik\Desktop\Cucumber\src\main\resources" />
       <recent name="C:\Users\Anastasiia_Rudik\Desktop\Cucumber\src\test\resources" />
       <recent name="C:\Users\Anastasiia_Rudik\Desktop\Cucumber\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Сheck the purchase">
+  <component name="RunManager" selected="Cucumber java.Scenario: Сheck the purchase (1)">
     <configuration name="Feature: homeTask1 (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
@@ -104,6 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Check registration without e-mail (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="homeTask1" />
+      <option name="NAME_FILTER" value="^Check registration without e\-mail$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check registration without e\-mail$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check registration without e-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Check registration without e-mail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
@@ -123,15 +156,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Check registration without e-mail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
+      <option name="GLUE" value="stepdefinitions " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="homeTask1" />
+      <option name="NAME_FILTER" value="^Check registration without e\-mail$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check registration without e\-mail$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check registration without e-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check registration without e-mail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
+      <option name="GLUE" value="stepdefinitions " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="homeTask1" />
+      <option name="NAME_FILTER" value="^Check registration without e\-mail$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check registration without e\-mail$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check registration without e-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Check search for non-existent goods" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
-      <option name="GLUE" value=" stepdefinitions " />
+      <option name="GLUE" value=" stepdefinitions myHook" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="homeTask1" />
       <option name="NAME_FILTER" value="^Check search for non\-existent goods$" />
       <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check search for non\-existent goods$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Check search for non-existent goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check sorting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homeTask1.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="homeTask1" />
+      <option name="NAME_FILTER" value="^Check sorting$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check sorting$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Сheck the purchase (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/homeTask1.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="homeTask1" />
+      <option name="NAME_FILTER" value="^Сheck the purchase$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Сheck the purchase$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Сheck the purchase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -162,16 +271,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeTask1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.RunnerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: Check search for non-existent goods" />
       <item itemvalue="Cucumber java.Feature: homeTask1" />
       <item itemvalue="Cucumber java.Feature: homeTask1 (1)" />
       <item itemvalue="Cucumber java.Scenario: Check registration without e-mail" />
       <item itemvalue="Cucumber java.Scenario: Сheck the purchase" />
+      <item itemvalue="Cucumber java.Scenario: Check registration without e-mail (1)" />
+      <item itemvalue="Cucumber java.Scenario: Check sorting" />
+      <item itemvalue="JUnit.RunnerTests" />
+      <item itemvalue="Cucumber java.Scenario: Сheck the purchase (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Сheck the purchase (1)" />
         <item itemvalue="Cucumber java.Scenario: Сheck the purchase" />
+        <item itemvalue="Cucumber java.Scenario: Check sorting" />
+        <item itemvalue="Cucumber java.Scenario: Check registration without e-mail (1)" />
+        <item itemvalue="JUnit.RunnerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -189,18 +321,30 @@
       <option name="presentableId" value="Default" />
       <updated>1602181552732</updated>
     </task>
+    <task id="LOCAL-00001" summary="v2">
+      <created>1619370062824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619370062824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1619026816310">
+    <state x="552" y="178" key="#Inspections" timestamp="1619536138636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1619026816310" />
-    <state x="451" y="90" key="#Project_Structure" timestamp="1618866009537">
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1619536138636" />
+    <state x="451" y="90" key="#Project_Structure" timestamp="1619452232925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1615387014818" />
-    <state x="451" y="90" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1618866009537" />
+    <state x="451" y="90" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1619452232925" />
     <state x="557" y="174" key="#RunnerTests" timestamp="1615750544790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1131" y="202" key="#Scenario:_Сheck_the_purchase/0.0.1920.1040@0.0.1920.1040" timestamp="1619022543343" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619369151208">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619641297914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619369151208" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619641297914" />
     <state x="507" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615292246410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,67 +377,75 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1615292132021" />
-    <state x="501" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618102001756">
+    <state x="501" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619643701479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="501" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618102001756" />
+    <state x="501" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619643701479" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618104003286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618104003286" />
+    <state x="707" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1619536066160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1619536066160" />
+    <state x="605" y="114" key="CommitChangelistDialog2" timestamp="1619370085409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619370085409" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1619022532069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619022532069" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1619369963740">
+    <state width="1491" height="338" key="GridCell.Tab.0.bottom" timestamp="1619650366345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1483" height="80" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615403687104" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619369963740" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1619369963739">
+    <state width="1491" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366345" />
+    <state width="1491" height="338" key="GridCell.Tab.0.center" timestamp="1619650366345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1483" height="80" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615403687104" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619369963739" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1619369963739">
+    <state width="1491" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366345" />
+    <state width="1491" height="338" key="GridCell.Tab.0.left" timestamp="1619650366345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1483" height="80" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615403687104" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619369963739" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1619369963739">
+    <state width="1491" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366345" />
+    <state width="1491" height="338" key="GridCell.Tab.0.right" timestamp="1619650366345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1483" height="80" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615403687104" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619369963739" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1619369821131">
+    <state width="1491" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366345" />
+    <state width="1491" height="338" key="GridCell.Tab.1.bottom" timestamp="1619650366346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619369821131" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1619369821130">
+    <state width="1491" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366346" />
+    <state width="1491" height="338" key="GridCell.Tab.1.center" timestamp="1619650366346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619369821130" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1619369821130">
+    <state width="1491" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366346" />
+    <state width="1491" height="338" key="GridCell.Tab.1.left" timestamp="1619650366346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619369821130" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1619369821131">
+    <state width="1491" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366346" />
+    <state width="1491" height="338" key="GridCell.Tab.1.right" timestamp="1619650366346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619369821131" />
+    <state width="1491" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619650366346" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1619027626558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619027626558" />
-    <state x="464" y="188" key="SettingsEditor" timestamp="1619028037099">
+    <state x="249" y="158" key="SettingsEditor" timestamp="1619650075435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615397600958" />
-    <state x="464" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619028037099" />
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1619368883242">
+    <state x="249" y="158" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619650075435" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1619645957433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619368883242" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619645957433" />
     <state x="743" y="303" key="export.test.results" timestamp="1615986305071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,6 +463,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618869242013" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619542613393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619542613393" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

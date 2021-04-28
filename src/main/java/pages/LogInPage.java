@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LogInPage extends BasePage {
-    private static final By REGISTRATION_BUTTON = By.xpath("//a[@class='auth-modal__register-link']");
+    private static final By REGISTRATION_BUTTON = By.xpath("//a[@class='auth-modal__register-link ng-star-inserted']");
     public LogInPage(WebDriver driver) {
         super(driver);
     }
