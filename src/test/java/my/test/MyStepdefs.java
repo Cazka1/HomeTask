@@ -12,7 +12,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 import static io.github.bonigarcia.wdm.WebDriverManager.chromedriver;
@@ -42,16 +46,19 @@ public class MyStepdefs {
         driver.get(ROZETKA_URL);
 
     }
+
     @After
     public void tearDown() {
         driver.close();
         driver.quit();
     }
+
     @When("User click on 'UA' button")
     public void userClickOnUAButton() {
         homePage = manager.getHomePage();
         homePage.clickOnSelectLanguageUA();
     }
+
     @When("User clicks on 'Search Field'")
     public void userClicksOnSearchField() {
         homePage = manager.getHomePage();
@@ -100,6 +107,7 @@ public class MyStepdefs {
         homePage.implicitWait(DEFAULT_TIMEOUT);
         assertTrue(cartPage.cartPageVisible());
     }
+
     @When("User clicks on 'Log In' button")
     public void userClicksOnLogInButton() {
         homePage.clickOnSignInButton();
@@ -183,21 +191,24 @@ public class MyStepdefs {
     public void userClickSortButton() {
         appleIPhonePage.clickOnSortButton();
         homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+
     }
 
     @And("User click 'From Cheap to Expensive' button")
-    public void userClickFromCheapToExpensiveButton() throws InterruptedException {
+    public void userClickFromCheapToExpensiveButton() {
         appleIPhonePage.clickOnCheapButton();
-        Thread.sleep(400);
-    //    homePage.waitVisibilityOfElement(DEFAULT_TIMEOUT,FROM_CHEAP_TO_EXPANSIVE_BUTTON);
+        WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
+        wait.until(ExpectedConditions.visibilityOf(appleIPhonePage.getProductPriceList().get(0)));
+
     }
 
     @And("User check that first product cheaper than last")
     public void userCheckThatFirstProductCheaperThanLast() {
+
         List<WebElement> list = appleIPhonePage.getProductPriceList();
         for (int i = 1; i < list.size(); i++) {
             String string = list.get(i).getText().replaceAll(" ", "");
-            String string1 = list.get(i -1).getText().replaceAll(" ", "");
+            String string1 = list.get(i - 1).getText().replaceAll(" ", "");
             int value = Integer.parseInt(string);
             int value1 = Integer.parseInt(string1);
             assertTrue(value1 <= value);
@@ -205,16 +216,20 @@ public class MyStepdefs {
     }
 
     @And("User click 'From Expensive to Cheap' button")
-    public void userClickFromExpensiveToCheapButton() throws InterruptedException {
-
+    public void userClickFromExpensiveToCheapButton() {
         appleIPhonePage.clickOnExpensiveButton();
-        Thread.sleep(400);
+        WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
+        wait.until(ExpectedConditions.visibilityOf(appleIPhonePage.getProductPriceList().get(0)));
+
+
     }
 
     @Then("User check that first product more expensive than last")
     public void userCheckThatFirstProductMoreExpensiveThanLast() {
+
+
         List<WebElement> list = appleIPhonePage.getProductPriceList();
-        for (int i = 2; i < list.size(); i++) {
+        for (int i = 1; i < list.size(); i++) {
             String string = list.get(i).getText().replaceAll(" ", "");
             String string1 = list.get(i - 1).getText().replaceAll(" ", "");
             int value = Integer.parseInt(string);
