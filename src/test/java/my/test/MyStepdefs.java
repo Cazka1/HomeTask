@@ -189,18 +189,14 @@ public class MyStepdefs {
 
     @And("User click 'Sort Button'")
     public void userClickSortButton() {
-
         appleIPhonePage.clickOnSortButton();
         homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-
     }
 
     @And("User click 'From Cheap to Expensive' button")
     public void userClickFromCheapToExpensiveButton() {
         appleIPhonePage.clickOnCheapButton();
-        WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
-        wait.until(ExpectedConditions.visibilityOf(appleIPhonePage.getProductPriceList().get(0)));
-
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
     }
 
     @And("User check that first product cheaper than last")
@@ -219,16 +215,11 @@ public class MyStepdefs {
     @And("User click 'From Expensive to Cheap' button")
     public void userClickFromExpensiveToCheapButton() {
         appleIPhonePage.clickOnExpensiveButton();
-        WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
-
-
-
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
     }
 
     @Then("User check that first product more expensive than last")
     public void userCheckThatFirstProductMoreExpensiveThanLast() {
-
-
         List<WebElement> list = appleIPhonePage.getProductPriceList();
         for (int i = 1; i < list.size(); i++) {
             String string = list.get(i).getText().replaceAll(" ", "");
@@ -240,4 +231,15 @@ public class MyStepdefs {
     }
 
 
+    @And("User click 'Small tiles'")
+    public void userClickSmallTiles() {
+        appleIPhonePage.clickOnSmallTilesButton();
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+    }
+
+    @And("User click 'Large tiles'")
+    public void userClickLargeTiles() {
+appleIPhonePage.clickOnLargeTilesButton();
+homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+    }
 }

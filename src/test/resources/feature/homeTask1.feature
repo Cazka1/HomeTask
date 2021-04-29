@@ -53,9 +53,11 @@ Feature: homeTask1
     And User choose 'Apple' producer
     And User click 'Sort Button'
     And User click 'From Cheap to Expensive' button
+    And User click 'Large tiles'
     And User check that first product cheaper than last
     And User click 'Sort Button'
     And User click 'From Expensive to Cheap' button
+    And User click 'Small tiles'
     Then User check that first product more expensive than last
     Examples:
       | Search Word                   |

@@ -16,12 +16,19 @@ public class AppleIPhonePage extends BasePage {
     private static final By FROM_EXPENSIVE_TO_CHEAP_BUTTON = By.xpath("//option[@value='2: expensive']");
     private static final By FROM_CHEAP_TO_EXPANSIVE_BUTTON = By.xpath("//option[@value='1: cheap']");
     private static final By PRODUCT_PRICE_LIST = By.xpath("//span[@class='goods-tile__price-value']");
+    private static final By LARGE_TILES = By.xpath("//button[@class='catalog-view__button ng-star-inserted']");
+    private static final By SMALL_TILES = By.xpath("//button[@title='Мала плитка']");
 
     public AppleIPhonePage(WebDriver driver) {
         super(driver);
     }
 
-
+public void clickOnLargeTilesButton(){
+        driver.findElement(LARGE_TILES).click();
+}
+public void clickOnSmallTilesButton(){
+        driver.findElement(SMALL_TILES).click();
+}
     public void clickOnAppleProductsButton() {
         driver.findElement(APPLE_PRODUCTS_CHECKBOX).click();
     }
