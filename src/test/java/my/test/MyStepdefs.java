@@ -69,15 +69,15 @@ public class MyStepdefs {
     @And("User write {string} and click Enter button")
     public void userWriteSearchWordAndClickEnterButton(final String word) {
         homePage.searchByKeyword(word);
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
 
     }
 
     @And("User choose 'Apple' producer")
     public void userChooseAppleProducer() {
         appleIPhonePage = manager.getAppleIPhonePage();
-        homePage.implicitWait(DEFAULT_TIMEOUT);
         appleIPhonePage.clickOnAppleProductsButton();
-        homePage.implicitWait(DEFAULT_TIMEOUT);
+
     }
 
     @And("User click on first product")
@@ -189,6 +189,7 @@ public class MyStepdefs {
 
     @And("User click 'Sort Button'")
     public void userClickSortButton() {
+
         appleIPhonePage.clickOnSortButton();
         homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
 
@@ -219,7 +220,7 @@ public class MyStepdefs {
     public void userClickFromExpensiveToCheapButton() {
         appleIPhonePage.clickOnExpensiveButton();
         WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
-        wait.until(ExpectedConditions.visibilityOf(appleIPhonePage.getProductPriceList().get(0)));
+
 
 
     }
