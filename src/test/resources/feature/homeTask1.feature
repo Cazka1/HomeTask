@@ -1,4 +1,4 @@
-Feature: homeTast1
+Feature: homeTask1
   As a user
   I want to test some site functional
   So that I can be sure that this functional works correctly
@@ -26,13 +26,13 @@ Feature: homeTast1
     And User click 'Registration' button
   #  And User click on 'Sign In' button
     And User clicks on 'Name' field
-    And User enter '<Name>'
+    And User enter name '<Name>'
    And User clicks on 'Surname' field
-    And User write '<Surname>'
+    And User enter surname '<Surname>'
   #  And User click on 'Phone Number' field
-    And User wr '<Phone Number>'
+    And User enter phone number '<Phone Number>'
     And User clicks on 'Password' field'
-    And User wri '<Password>'
+    And User enter password '<Password>'
     And user click on 'registration' button
     Then User see 'Write e-mail' message
     Examples:
@@ -45,10 +45,7 @@ Feature: homeTast1
     When User clicks on 'Search Field'
     And User Write '<Search Word>'
     Then User see 'Message'
-    And User Write '<Search Word>'
-    Then User see 'Message'
-    And User Write '<Search Word>'
-    Then User see 'Message'
+
     Examples:
       | Home Page               | Search Word       |
       | https://rozetka.com.ua/ | синхрофазотрон   |
