@@ -1,4 +1,4 @@
-package my.test;
+package definitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -12,20 +12,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.List;
+import java.util.stream.Stream;
 
 import static io.github.bonigarcia.wdm.WebDriverManager.chromedriver;
 import static org.junit.Assert.assertTrue;
 
 public class MyStepdefs {
     private static final long DEFAULT_TIMEOUT = 40;
-    private static final By FROM_EXPENSIVE_TO_CHEAP_BUTTON = By.xpath("//option[@value='2: expensive']");
-    private static final By FROM_CHEAP_TO_EXPANSIVE_BUTTON = By.xpath("//option[@value='1: cheap']");
     private static final By BUY_BUTTON = By.xpath("//button[@class='buy-button button button_with_icon button_color_green button_size_large ng-star-inserted']");
     WebDriver driver;
     private HomePage homePage;
@@ -34,7 +31,7 @@ public class MyStepdefs {
     private IPhone12ProPage iPhone12ProPage;
     private LogInPage logInPage;
     private RegistrationPage registrationPage;
-    private Manager manager;
+    private Manager manager = new Manager(driver);
     private String ROZETKA_URL = "https://rozetka.com.ua/";
 
     @Before
@@ -58,7 +55,10 @@ public class MyStepdefs {
         homePage = manager.getHomePage();
         homePage.clickOnSelectLanguageUA();
     }
-
+    @When("User click on 'RU' button")
+    public void userClickOnRUButton() {
+        homePage.clickOnSelectLanguageRU();
+    }
     @When("User clicks on 'Search Field'")
     public void userClicksOnSearchField() {
         homePage = manager.getHomePage();
@@ -198,6 +198,11 @@ public class MyStepdefs {
         appleIPhonePage.clickOnCheapButton();
         homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
     }
+    @And("User click 'Small tiles'")
+    public void userClickSmallTiles() {
+        appleIPhonePage.clickOnSmallTilesButton();
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+    }
 
     @And("User check that first product cheaper than last")
     public void userCheckThatFirstProductCheaperThanLast() {
@@ -208,7 +213,7 @@ public class MyStepdefs {
             String string1 = list.get(i - 1).getText().replaceAll(" ", "");
             int value = Integer.parseInt(string);
             int value1 = Integer.parseInt(string1);
-            assertTrue(value1 <= value);
+            assertTrue(value >= value1);
         }
     }
 
@@ -218,8 +223,14 @@ public class MyStepdefs {
         homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
     }
 
+    @And("User click 'Large tiles'")
+    public void userClickLargeTiles() {
+        appleIPhonePage.clickOnLargeTilesButton();
+        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
+    }
     @Then("User check that first product more expensive than last")
-    public void userCheckThatFirstProductMoreExpensiveThanLast() {
+    public void userCheckThatFirstProductMoreExpensiveThanLast()  {
+
         List<WebElement> list = appleIPhonePage.getProductPriceList();
         for (int i = 1; i < list.size(); i++) {
             String string = list.get(i).getText().replaceAll(" ", "");
@@ -231,15 +242,5 @@ public class MyStepdefs {
     }
 
 
-    @And("User click 'Small tiles'")
-    public void userClickSmallTiles() {
-        appleIPhonePage.clickOnSmallTilesButton();
-        homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-    }
 
-    @And("User click 'Large tiles'")
-    public void userClickLargeTiles() {
-appleIPhonePage.clickOnLargeTilesButton();
-homePage.waitForPageLoadComplete(DEFAULT_TIMEOUT);
-    }
 }

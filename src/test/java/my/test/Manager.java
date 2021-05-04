@@ -9,11 +9,11 @@ public class Manager {
     WebDriver driver;
 
     public Manager(WebDriver driver) {
-        this.driver = driver;
-    }
-    public HomePage getHomePage()    {
+            this.driver = driver;
+        }
+        public HomePage getHomePage()    {
 
-        return new HomePage(driver);
+            return new HomePage(driver);
     }
 
     public AppleIPhonePage getAppleIPhonePage() {

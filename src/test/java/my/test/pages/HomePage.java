@@ -7,6 +7,7 @@ public class HomePage extends BasePage {
     private static final By SIGN_IN_BUTTON = By.xpath("//li[@class='header-actions__item header-actions__item--user']//button[@class='header__button ng-star-inserted']");////li[@class='header-actions__item header-actions__item--user']//button[@class='header__button ng-star-inserted']
     private static final By NO_RESULT_POP_UP = By.xpath("//p[@class='search-suggest__item search-suggest__item-content search-suggest__item-content_type_no-results search-suggest__item-text ng-star-inserted']");
 private static final By SELECT_LANGUAGE_UA = By.xpath("//a[text()=' UA ']");
+private static final By SELECT_LANGUAGE_RU = By.xpath("//a[text()=' RU ']");
     private static final String ROZETKA_URL = "https://rozetka.com.ua/";
     public HomePage(WebDriver driver) {
         super(driver);
@@ -37,5 +38,9 @@ private static final By SELECT_LANGUAGE_UA = By.xpath("//a[text()=' UA ']");
 public void clickOnSelectLanguageUA(){
         driver.findElement(SELECT_LANGUAGE_UA).click();
 }
+    public void clickOnSelectLanguageRU(){
+        driver.findElement(SELECT_LANGUAGE_RU).click();
+    }
+
 
 }

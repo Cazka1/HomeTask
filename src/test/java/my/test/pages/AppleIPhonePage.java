@@ -11,7 +11,7 @@ import java.util.List;
 
 public class AppleIPhonePage extends BasePage {
     private static final By APPLE_PRODUCTS_CHECKBOX = By.xpath("//label[@for='Apple']");
-    private static final By FIRST_IPHONE_PRODUCT = By.xpath("//span[@class='goods-tile__title' and text()=' Мобільний телефон Apple iPhone 12 Pro Max 256 GB Gold Офіційна гарантія ']");
+    private static final By FIRST_IPHONE_PRODUCT = By.xpath("//span[@class='goods-tile__title' and text()=' Мобільний телефон Apple iPhone 12 Pro Max 256 GB Pacific Blue Офіційна гарантія ']");
     private static final By SORT_BUTTON = By.xpath("//option[text()=' За релевантністю ']");
     private static final By FROM_EXPENSIVE_TO_CHEAP_BUTTON = By.xpath("//option[@value='2: expensive']");
     private static final By FROM_CHEAP_TO_EXPANSIVE_BUTTON = By.xpath("//option[@value='1: cheap']");
